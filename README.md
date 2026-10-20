@@ -4,9 +4,9 @@ Landing page del proyecto musical Tieneunperro. Es HTML y CSS estático, sin bui
 
 ## Editar
 
-- `index.html`: textos, links, fechas y contacto.
-- `styles.css`: colores (variables en `:root`, sacados de las portadas) y tipografías.
-- `assets/`: portadas de los lanzamientos y foto del artista.
+- `index.html`: la página principal, el orbe interactivo. Todo va en este archivo (estilos, sonido y el logo del perro incrustado), así que se abre bien aunque se copie solo. Los links de redes están en `<nav class="socials">`.
+- `portadas.html` + `styles.css`: la primera versión, inspirada en las portadas.
+- `assets/`: portadas, foto del artista y el logo del perro en `assets/perro/` (SVG y PNG grande).
 
 ## Publicar con GitHub Pages
 
