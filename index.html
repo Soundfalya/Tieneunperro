@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tieneunperro</title>
+  <meta name="description" content="Tieneunperro: música, lanzamientos, fechas y contacto.">
+  <meta property="og:title" content="Tieneunperro">
+  <meta property="og:description" content="Escucha Carta Natal, Warm Tarde y Planeta Ambiente.">
+  <meta property="og:image" content="assets/carta-natal.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#">tieneunperro</a>
+    <nav>
+      <a href="#musica">Música</a>
+      <a href="#artista">Artista</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Portada: cielo arriba, crema abajo, como en Carta Natal -->
+    <section class="hero">
+      <h1 class="word top">TIENE UN</h1>
+
+      <div class="emblem" aria-hidden="true">
+        <svg class="ring" viewBox="0 0 200 200">
+          <defs><path id="circ" d="M100,100 m-88,0 a88,88 0 1,1 176,0 a88,88 0 1,1 -176,0"/></defs>
+          <text><textPath href="#circ">☉ ☽ ☿ ♀ ♂ ♃ ♄ ♅ ♆ ♇ ☉ ☽ ☿ ♀ ♂ ♃ ♄ ♅ ♆ ♇ ☉ ☽ ☿ ♀ ♂ ♃ ♄</textPath></text>
+        </svg>
+        <svg class="core" viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="74" fill="var(--navy)" stroke="var(--yellow)" stroke-width="3"/>
+          <polygon points="100,26 174,100 100,174 26,100" fill="var(--red)" stroke="var(--cream)" stroke-width="2"/>
+          <polygon points="52,72 148,72 100,160" fill="var(--yellow)" stroke="var(--green)" stroke-width="2.5"/>
+          <ellipse cx="100" cy="96" rx="34" ry="16" fill="var(--cream)" stroke="var(--pink)" stroke-width="5"/>
+          <circle cx="100" cy="96" r="11" fill="var(--red)"/>
+          <circle cx="100" cy="96" r="5" fill="#111"/>
+          <circle cx="95" cy="91" r="3" fill="#fff"/>
+        </svg>
+      </div>
+
+      <h1 class="word bottom">PERRO</h1>
+
+      <div class="cta">
+        <a class="btn primary" href="https://linktr.ee/tieneunperro" target="_blank" rel="noopener">Escuchar ahora</a>
+        <a class="btn" href="#musica">Lanzamientos</a>
+      </div>
+    </section>
+
+    <section id="musica" class="block releases">
+      <h2>Lanzamientos</h2>
+      <div class="grid">
+        <a class="release" href="https://linktr.ee/tieneunperro" target="_blank" rel="noopener">
+          <img src="assets/warm-tarde.jpg" alt="Portada de Warm Tarde" loading="lazy">
+          <span class="title">Warm Tarde</span>
+        </a>
+        <a class="release" href="https://linktr.ee/tieneunperro" target="_blank" rel="noopener">
+          <img src="assets/carta-natal.jpg" alt="Portada de Carta Natal" loading="lazy">
+          <span class="title">Carta Natal</span>
+          <span class="meta">Incluye Mercurio</span>
+        </a>
+        <a class="release" href="https://linktr.ee/tieneunperro" target="_blank" rel="noopener">
+          <img src="assets/planeta-ambiente.jpg" alt="Portada de Planeta Ambiente" loading="lazy">
+          <span class="title">Planeta Ambiente</span>
+          <span class="meta">Incluye Momentitos</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="artista" class="artist">
+      <img src="assets/artista.jpg" alt="Tieneunperro cantando al micrófono">
+      <div class="artist-text">
+        <h2>El artista</h2>
+        <!-- Reemplazar con la bio real -->
+        <p>Bio corta aquí: quién es Tieneunperro, cómo suena y desde dónde hace música.</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="block contact">
+      <h2>Contacto</h2>
+      <p>Prensa, booking y colaboraciones:</p>
+      <a class="mail" href="mailto:correo@ejemplo.com">correo@ejemplo.com</a>
+      <ul class="links">
+        <li><a href="https://linktr.ee/tieneunperro" target="_blank" rel="noopener">Spotify</a></li>
+        <li><a href="https://linktr.ee/tieneunperro" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://linktr.ee/tieneunperro" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://linktr.ee/tieneunperro" target="_blank" rel="noopener">Linktree</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>© <span id="y">2026</span> Tieneunperro</p>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
