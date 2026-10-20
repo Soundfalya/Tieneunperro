@@ -1,6 +1,18 @@
 # Tieneunperro
 
-Landing page del proyecto musical Tieneunperro. Es HTML y CSS estático, sin build.
+Landing page del proyecto musical Tieneunperro.
+
+**🌐 Página en vivo: https://soundfalya.github.io/Tieneunperro/**
+
+Un orbe hermético que flota sobre un fondo índigo, verde musgo y rojo ladrillo, con símbolos de alquimia y astrología:
+
+- Cada planeta toca una nota de la serie armónica (Saturno es la fundamental, la Luna el 7º armónico).
+- El ojo del centro toca un arpegio.
+- Hay 7 brillos ocultos para descubrir; el contador está bajo el sello del perro.
+- Arriba están las redes como cuadrados, al estilo Linktree.
+- El sello del perro (kamon con 無, "vacío") guarda su propio secreto.
+
+Es HTML, CSS y JavaScript estático, sin build.
 
 ## Editar
 
@@ -11,4 +23,4 @@ Landing page del proyecto musical Tieneunperro. Es HTML y CSS estático, sin bui
 ## Publicar con GitHub Pages
 
 Settings → Pages → Source: "Deploy from a branch" → rama `main`, carpeta `/ (root)`.
-La página queda en `https://soundfalya.github.io/tieneunperro/`.
+Cada cambio que entra a `main` se publica solo en un par de minutos.
